@@ -1,0 +1,189 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "To check whether login functionality is working fine",
+        "description": "",
+        "id": "to-check-whether-adactin-application-is-working-fine;to-check-whether-login-functionality-is-working-fine;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34059493800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and and pass the URL",
+            "match": {
+              "location": "Step_Def.launch_the_browser_and_and_pass_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 563954000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"Arthiha1018\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arthiha1018",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_Def.user_enter_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 394210600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"IA779U\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IA779U",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Def.user_enters_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10618009400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "Step_Def.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475909500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get navigated to Search Hotels page",
+            "match": {
+              "location": "Step_Def.user_should_get_navigated_to_Search_Hotels_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "To check whether login functionality is working fine",
+        "description": "",
+        "id": "to-check-whether-adactin-application-is-working-fine;to-check-whether-login-functionality-is-working-fine;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2146407600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser and and pass the URL",
+            "match": {
+              "location": "Step_Def.launch_the_browser_and_and_pass_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 251024800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"abc\" in the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 12
+                }
+              ],
+              "location": "Step_Def.user_enter_in_the_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181938700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"123\" in the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 13
+                }
+              ],
+              "location": "Step_Def.user_enters_in_the_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 858110000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "Step_Def.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40084800,
+              "error_message": "java.lang.AssertionError: expected [Adactin.com - Search Hotel] but found [Adactin.com - Hotel Reservation System]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:575)\r\n\tat org.testng.Assert.assertEquals(Assert.java:585)\r\n\tat co.step.Step_Def.user_should_get_navigated_to_Search_Hotels_page(Step_Def.java:41)\r\n\tat ✽.Then User should get navigated to Search Hotels page(src/test/java/com/feature/file/Adactin.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "User should get navigated to Search Hotels page",
+            "match": {
+              "location": "Step_Def.user_should_get_navigated_to_Search_Hotels_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To check whether Adactin application is working fine",
+    "description": "",
+    "id": "to-check-whether-adactin-application-is-working-fine",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/feature/file/Adactin.feature"
+  }
+]

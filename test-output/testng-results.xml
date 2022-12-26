@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7336" started-at="2022-12-19T14:05:29 IST" finished-at="2022-12-19T14:05:36 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7336" started-at="2022-12-19T14:05:29 IST" finished-at="2022-12-19T14:05:36 IST">
+      <class name="com.testng.Par">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.Par@4c2bb6e0]" name="login" duration-ms="5046" started-at="2022-12-19T14:05:29 IST" data-provider="username" finished-at="2022-12-19T14:05:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arthi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.Par@4c2bb6e0]" name="login" duration-ms="1120" started-at="2022-12-19T14:05:34 IST" data-provider="username" finished-at="2022-12-19T14:05:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gopi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.testng.Par@4c2bb6e0]" name="login" duration-ms="880" started-at="2022-12-19T14:05:36 IST" data-provider="username" finished-at="2022-12-19T14:05:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0987]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.testng.Par -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
